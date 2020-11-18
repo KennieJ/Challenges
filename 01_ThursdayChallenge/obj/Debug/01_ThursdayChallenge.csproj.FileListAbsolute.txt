@@ -1,7 +1,0 @@
-C:\ElevenFiftyProjects\ChallengePrompts\01_ThursdayChallenge\bin\Debug\01_ThursdayChallenge.exe.config
-C:\ElevenFiftyProjects\ChallengePrompts\01_ThursdayChallenge\bin\Debug\01_ThursdayChallenge.exe
-C:\ElevenFiftyProjects\ChallengePrompts\01_ThursdayChallenge\bin\Debug\01_ThursdayChallenge.pdb
-C:\ElevenFiftyProjects\ChallengePrompts\01_ThursdayChallenge\obj\Debug\01_ThursdayChallenge.csprojAssemblyReference.cache
-C:\ElevenFiftyProjects\ChallengePrompts\01_ThursdayChallenge\obj\Debug\01_ThursdayChallenge.csproj.CoreCompileInputs.cache
-C:\ElevenFiftyProjects\ChallengePrompts\01_ThursdayChallenge\obj\Debug\01_ThursdayChallenge.exe
-C:\ElevenFiftyProjects\ChallengePrompts\01_ThursdayChallenge\obj\Debug\01_ThursdayChallenge.pdb
