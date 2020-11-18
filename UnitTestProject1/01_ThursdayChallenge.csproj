@@ -49,11 +49,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConditionalExamples.cs" />
-    <Compile Include="LoopExamples.cs" />
     <Compile Include="ThursChal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TypeExamples.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
