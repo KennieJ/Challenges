@@ -6,42 +6,41 @@ using System.Threading.Tasks;
 
 namespace _02_Week2Challenge
 {
-    class Greeter
+    public class Greeter
     {
-        public void SayHello()
+        public string SayHello(string name)
         {
-            Console.WriteLine("What is your name?");
-            string name = Console.ReadLine();
-            Console.WriteLine($"Hello {name}");
+            string greetingMessage = $"Hello {name}";
+            return greetingMessage;
         }
 
-        public void SayGoodbye()
+        public string SayGoodbye(string name)
         {
-            Console.WriteLine("What is your name?");
-            string name = Console.ReadLine();
-            Console.WriteLine($"Goodbye {name}");
+            string goodbyeMessage = $"Goodbye {name}";
+            return goodbyeMessage;
         }
 
-        public void timelyGreeting()
+        public string TimelyGreeting(string name)
         {
-            Console.WriteLine("What is your name?");
-            string name = Console.ReadLine();
-
             if(DateTime.Now.Hour > 4 && DateTime.Now.Hour < 12)
             {
-                Console.WriteLine($"Good morning {name}");
+                string timeGreet = $"Good morning {name}";
+                return timeGreet;
             }
-            else if(DateTime.Now.Hour < 5)
+            else if(DateTime.Now.Hour < 17)
             {
-                Console.WriteLine($"Good afternoon {name}");
+                string timeGreet = $"Good afternoon {name}";
+                return timeGreet;
             }
-            else if(DateTime.Now.Hour < 10)
+            else if(DateTime.Now.Hour < 22)
             {
-                Console.WriteLine($"Good evening {name}");
+                string timeGreet = $"Good evening {name}";
+                return timeGreet;
             }
             else
             {
-                Console.WriteLine($"It's late, {name}. Good night");
+                string timeGreet = $"It's late, {name}. Good night";
+                return timeGreet;
             }
         }
     }
